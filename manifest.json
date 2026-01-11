@@ -2,23 +2,24 @@
   "name": "Kids Daily Routine Tracker",
   "short_name": "Kids Routine",
   "description": "Daily routine tracker for kids with notifications and reminders",
-  "start_url": "/kids-routine-app/",
-  "scope": "/kids-routine-app/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#4F46E5",
   "theme_color": "#4F46E5",
   "orientation": "portrait",
+  "categories": ["education", "lifestyle"],
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/kamrankaleem87-source/kids-routine-app/main/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='125' fill='%234F46E5'/%3E%3Ctext x='256' y='370' text-anchor='middle' font-size='280' fill='white'%3E👶%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
       "purpose": "any maskable"
     },
     {
-      "src": "https://raw.githubusercontent.com/kamrankaleem87-source/kids-routine-app/main/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='48' fill='%234F46E5'/%3E%3Ctext x='96' y='140' text-anchor='middle' font-size='100' fill='white'%3E👶%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
       "purpose": "any maskable"
     }
   ]
